@@ -1,0 +1,11 @@
+name: myBetterEnchants
+main: REALDrummer.myBetterEnchants
+version: 0
+description: >
+             This plugin lets you enchant super expensive stuff!
+commands:
+   anvil:
+      aliases: []
+      description: This command starts the anvil combination process.
+      usage: |
+           /<command>
