@@ -9,3 +9,23 @@ commands:
       description: This command starts the anvil combination process.
       usage: |
            /<command>
+   myBetterEnchants:
+      aliases: [mBE]
+      description: This command can be used for a variety of myBettereEnchants administrative functions.
+      usage: |
+           /<command> debug
+   enchant:
+      aliases: [ench, e]
+      description: This command enchants the item in the player's hand with the given enchantments, but uses the restrictions and limits present in vanilla Minecraft.
+      usage: |
+           /<command> [enchantment] (level)(, enchantment2 level2, [...])
+   super:
+      aliases: []
+      description: This command enchants the item in the player's hand with the given enchantments.
+      usage: |
+           /<command> enchant [enchantment] (level)(, enchantment2 level2, [...])
+   superenchant:
+      aliases: [sench, se]
+      description: This command enchants the item in the player's hand with the given enchantments.
+      usage: |
+           /<command> [enchantment] (level)(, enchantment2 level2, [...])
